@@ -311,3 +311,17 @@ body {
   font-size: 12px;
 }
 
+.having-acc{
+  font-size: 12px; 
+  color: grey; 
+  margin-top: 5px;
+} 
+
+.having-acc a {
+  color: #4285F4; 
+  text-decoration: none;
+} 
+
+.having-acc a:hover{
+  text-decoration: underline;
+}
