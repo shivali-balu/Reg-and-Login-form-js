@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="reg.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="left-section">
+      <div class="welcome">
+        <h1>Welcome to Intelli</h1> 
+        <p>Let's get you all set up so you can verify your personal accountand begin setting up your profile </p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <!-- Registration Form -->
+      <form id="registrationForm" class="registration-form">
+        <h2>Sign Up</h2>
+        <input type="text" id="username" placeholder="Username">
+        <div id="usernameError" class="error"></div>
+        <input type="email" id="email" placeholder="Email">
+        <div id="emailError" class="error"></div>
+        <div class="password-container">
+          <input type="password" id="password" placeholder="Password">
+          <span class="toggle-password" onclick="togglePasswordVisibility('password')"><i class="fa fa-eye" aria-hidden="true"></i></span>
+        </div>
+        <div id="passwordError" class="error"></div>
+        <div class="password-container">
+          <input type="password" id="confirmPassword" placeholder="Confirm Password">
+          <span class="toggle-password" onclick="togglePasswordVisibility('confirmPassword')"><i class="fa fa-eye" aria-hidden="true"></i></span>
+        </div>
+        <div id="confirmPasswordError" class="error"></div>
+        <input type="tel" id="contact" placeholder="Contact Number">
+        <input type="submit" value="Register">
+        <div class="separator"></div>
+        <div class="alternative-signup">
+          <p id="google">or create an account with</p>
+          <a href="#" class="google-signup">
+            <i class="fab fa-google" id="googleIcon"></i> 
+            <i class="fab fa-github" id="gitIcon"></i> 
+            <i class="fab fa-twitter" id="twitterIcon"></i> 
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="reg.js"></script>
+</body>
+</html>

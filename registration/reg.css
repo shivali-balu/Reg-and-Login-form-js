@@ -1,0 +1,316 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: rgb(89, 29, 73); 
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  font-size: 15px;
+}
+
+
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Add this CSS to style the struck-through eye icon */
+.toggle-password i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.toggle-password i.fa-eye-slash {
+  text-decoration: line-through; /* Add this line to strike through the eye icon */
+}
+
+i {
+  color: grey; 
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+/* Add this CSS for the Google signup section */
+.separator {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.separator::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.alternative-signup {
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.alternative-signup p {
+  margin-bottom: 10px;
+}
+
+.google-signup {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.google-signup i {
+  margin-right: 5px;
+}
+
+#google{
+  color: grey; 
+  font-size: 15px; 
+  padding-top: 2px;
+} 
+.google-signup i {
+  margin-right: 5px;
+  color: #f45742; /* Blue */
+}
+
+#gitIcon{
+  color: black;
+} 
+
+#twitterIcon{
+  color: #4285F4;
+} 
+
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  overflow: hidden;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Form styles */
+.container {
+  display: flex;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+  flex: 1;
+  padding: 20px; 
+  background-color: rgb(89, 29, 73); 
+  color: white; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+}
+
+.left-section h1 {
+  margin-top: 0;
+}
+
+.form-container {
+  width: 50%;
+  margin-left: auto; /* Align to right */
+}
+
+.registration-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.toggle-password i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.toggle-password i.fa-eye-slash {
+  text-decoration: line-through;
+}
+
+/* Google signup section */
+.separator {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.separator::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.alternative-signup {
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.alternative-signup p {
+  margin-bottom: 10px;
+}
+
+.google-signup {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.google-signup i {
+  margin-right: 5px;
+}
+
+#google {
+  color: grey; 
+  font-size: 15px; 
+  margin-top: 0px; 
+} 
+
+.google-signup i {
+  margin-right: 5px;
+  color: #f45742; /* Blue */
+}
+
+#gitIcon {
+  color: black;
+} 
+
+#twitterIcon {
+  color: #4285F4;
+}
+.left-section {
+  position: relative;
+}
+
+.welcome {
+  height: 300px; 
+  width: 300px; 
+  background-color: grey;  
+  text-align: center; 
+  display: flex; 
+  align-items: center ; 
+  justify-content: center;  
+  border-radius: 10px; 
+  flex-direction: column;   
+  padding: 10px; 
+}
+
+.welcome h1 {
+  color: white; /* Text color */
+}
+
+.welcome p {
+  color: white; /* Text color */
+} 
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(128, 128, 128, 0.3); /* Grey color with 50% opacity */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.welcome h1 {
+  color: white; /* Text color */
+}
+
+.welcome p {
+  color: white; /* Text color */ 
+  font-size: 12px;
+}
+

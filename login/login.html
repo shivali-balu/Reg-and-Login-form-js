@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="left-section"> 
+      <div class="welcome">
+        <h1>Welcome to Intelli</h1> 
+        <p>Let's get you all set up so you can verify your personal accountand begin setting up your profile </p>
+      </div>
+      <!-- Add any additional content here -->
+    </div>
+
+    <div class="form-container">
+      <!-- Login Form -->
+      <form id="loginForm">
+        <h2>Login</h2>
+        <input type="text" placeholder="Name" id="loginName"/>
+        <input type="text" id="loginEmail" placeholder="Email">
+        <div class="password-container">
+          <input type="password" id="loginPassword" placeholder="Password">
+          <span class="toggle-password" onclick="togglePasswordVisibility('loginPassword')"> <i class="fa fa-eye" aria-hidden="true"></i></span>
+        </div>
+        <input type="submit" value="Login" id="submit">
+        <div class="links">
+          <a href="#" id="forgot">Forgot password ?</a>
+          <span class="divider">|</span>
+          <a href="../registration/reg.html" id="signup">Don't have an account ? <span id="sign"> Sign up</span></a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="hide"></div>
+
+  <script src="login.js"></script>
+</body>
+</html>
