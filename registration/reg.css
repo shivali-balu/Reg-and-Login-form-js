@@ -35,8 +35,6 @@ input[type="submit"] {
   font-size: 15px;
 }
 
-
-
 .password-container {
   position: relative;
 }
@@ -49,7 +47,6 @@ input[type="submit"] {
   transform: translateY(-50%);
 }
 
-/* Add this CSS to style the struck-through eye icon */
 .toggle-password i {
   position: absolute;
   top: 50%;
@@ -58,7 +55,7 @@ input[type="submit"] {
 }
 
 .toggle-password i.fa-eye-slash {
-  text-decoration: line-through; /* Add this line to strike through the eye icon */
+  text-decoration: line-through; 
 }
 
 i {
@@ -69,7 +66,7 @@ i {
   color: red;
   font-size: 12px;
 }
-/* Add this CSS for the Google signup section */
+
 .separator {
   margin: 20px 0;
   text-align: center;
@@ -112,7 +109,7 @@ i {
 } 
 .google-signup i {
   margin-right: 5px;
-  color: #f45742; /* Blue */
+  color: #f45742; 
 }
 
 #gitIcon{
@@ -123,7 +120,7 @@ i {
   color: #4285F4;
 } 
 
-/* Common styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -137,7 +134,7 @@ body {
   font-size: 12px;
 }
 
-/* Form styles */
+
 .container {
   display: flex;
 }
@@ -161,7 +158,7 @@ body {
 
 .form-container {
   width: 50%;
-  margin-left: auto; /* Align to right */
+  margin-left: auto; 
 }
 
 .registration-form {
